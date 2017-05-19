@@ -1,0 +1,3 @@
+angular.module('main').run(['$templateCache', function($templateCache) {$templateCache.put('main/directive/login.html','<button ng-click="login()">login</button>');
+$templateCache.put('main/page/detail.html','<h2 ui-sref="mainIndex">back</h2>');
+$templateCache.put('main/page/index.html','<h1 class="main-index" ui-sref="mainDetail">This is the first page</h1>\r\n<div>\r\n  <h5>png sprite:</h5>\r\n  <i class="png-main-view-btn"></i>\r\n</div>\r\n<div>\r\n  <h5>svg sprite:(recommend write a directive for svg)</h5>\r\n  <svg class="svg-main-i" style="fill:red">\r\n    <use xlink:href="main/main.svg#i"></use>\r\n  </svg>\r\n</div>');}]);

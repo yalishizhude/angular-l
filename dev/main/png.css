@@ -1,0 +1,12 @@
+  .png-main-list-btn{
+    background-image: url(main.png);
+    background-position: 0px 0px;
+    width: 64px;
+    height: 30px;
+  }
+  .png-main-view-btn{
+    background-image: url(main.png);
+    background-position: 0px -30px;
+    width: 64px;
+    height: 30px;
+  }

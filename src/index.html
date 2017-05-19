@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body ng-app="core">
+  <ui-view/>
+  <!-- build:js lib/bundle.js -->
+  <script src="../lib/svg4everybody/dist/svg4everybody.min.js"></script>
+  <script>svg4everybody()</script>
+  <script src="../lib/angular/angular.js"></script>
+  <script src="../lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="../lib/oclazyload/dist/ocLazyLoad.min.js"></script>
+  <!-- endbuild -->
+  <script src="core/core.js"></script>
+</body>
+</html>

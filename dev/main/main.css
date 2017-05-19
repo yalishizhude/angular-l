@@ -1,0 +1,35 @@
+.main-index {
+  text-align: center;
+}
+
+/**
+* 定义公共变量
+*/
+body {
+  color: blue;
+}
+i {
+  display: inline-block;
+}
+
+/**
+* 定义公共变量
+*/
+
+.png-main-list-btn {
+  background-image: url(main.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 30px;
+}
+.png-main-view-btn {
+  background-image: url(main.png);
+  background-position: 0px -30px;
+  width: 64px;
+  height: 30px;
+}
+
+.svg-main-i {
+  width: 34px;
+  height: 34px;
+}
