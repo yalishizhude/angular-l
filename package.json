@@ -52,7 +52,7 @@
     "karma-phantomjs-launcher": "^1.0.4",
     "lazypipe": "^1.0.1",
     "merge-stream": "^1.0.1",
-    "open": "0.0.5",
+    "open": "7.0.0",
     "run-sequence": "^1.2.2",
     "yargs": "^7.1.0"
   }
